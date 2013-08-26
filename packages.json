@@ -119,6 +119,42 @@
                 }
             }
         },
+        "ft3/fluxkitchen-distribution": {
+            "dev-master": {
+                "name": "ft3/fluxkitchen-distribution",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedricziel/fluxkitchen-distribution.git",
+                    "reference": "8e84998d0afba8e806c53f70f73f47f3648adb2b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cedricziel/fluxkitchen-distribution/zipball/8e84998d0afba8e806c53f70f73f47f3648adb2b",
+                    "reference": "8e84998d0afba8e806c53f70f73f47f3648adb2b",
+                    "shasum": ""
+                },
+                "require": {
+                    "ft3/fluxkitchen": "dev-master",
+                    "typo3/cms": "6.1.x"
+                },
+                "time": "2013-08-26 18:33:11",
+                "type": "library",
+                "authors": [
+                    {
+                        "name": "Cedric Ziel",
+                        "email": "cedric@cedric-ziel.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Creates Demo Package for ft3/fluxkitchen",
+                "support": {
+                    "source": "https://github.com/cedricziel/fluxkitchen-distribution/tree/master",
+                    "issues": "https://github.com/cedricziel/fluxkitchen-distribution/issues"
+                }
+            }
+        },
         "ft3/vhs": {
             "dev-master": {
                 "name": "ft3/vhs",
