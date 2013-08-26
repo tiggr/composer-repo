@@ -16,20 +16,23 @@
 
             php work/bin/satis build ft3.json ${basedir}
 
-            #git remote add upstream ${github.repo}
-            #git remote set-url upstream ${github.repo}
-            #git fetch upstream gh-pages:gh-pages
-            #git fetch upstream gh-pages
-            #git checkout gh-pages
-            #git pull
+            git add packages.json index.html
 
-            #rm -fr ./api
-            #cp -fr ${reports.dir}/api ./api
-            #git add api
+            git stash
 
-            #git commit -a -m "publish reports to gh-pages"
-            #git push -u origin gh-pages
-            #git checkout master
+            git remote add upstream ${github.repo}
+            git remote set-url upstream ${github.repo}
+            git fetch upstream gh-pages:gh-pages
+            git fetch upstream gh-pages
+            git checkout gh-pages
+            git pull
+
+            git rm index.html packages.json
+
+            git stash pop
+            git commit -a -m "[TASK] Publish composer repo to gh-pages"
+            git push upstream gh-pages
+            git checkout master
         </echo>
         <chmod perm="+x" file="${basedir}/publish-site.sh"/>
         <exec executable="${basedir}/publish-site.sh" failonerror="true" failifexecutionfails="true"/>

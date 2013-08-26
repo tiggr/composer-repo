@@ -1,5 +1,3 @@
 publish-site.sh
 work/
 composer.phar
-index.html
-packages.json
