@@ -1,22 +1,22 @@
 {
 	"name": "Fluid Powered TYPO3 Composer Repository",
-	"homepage": "http://cedricziel.github.io/fluxcomposer/",
+	"homepage": "http://fluidtypo3.github.io/fluxcomposer/",
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/cedricziel/flux"
+			"url": "https://github.com/FluidTYPO3/flux"
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/cedricziel/fluidcontent"
+			"url": "https://github.com/FluidTYPO3/fluidcontent"
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/cedricziel/fluidpages"
+			"url": "https://github.com/FluidTYPO3/fluidpages"
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/cedricziel/vhs"
+			"url": "https://github.com/FluidTYPO3/vhs"
 		},
 		{
 			"type": "vcs",
