@@ -27,6 +27,8 @@
             git checkout gh-pages
             git pull
 
+            rm index.html packages.json
+
             git stash pop
             git commit -a -m "[TASK] Publish composer repo to gh-pages"
             git push upstream gh-pages
