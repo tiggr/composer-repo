@@ -1,85 +1,88 @@
 {
     "packages": {
         "ft3/fluidcontent": {
-            "dev-composerInit": {
+            "dev-master": {
                 "name": "ft3/fluidcontent",
-                "version": "dev-composerInit",
-                "version_normalized": "dev-composerInit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/cedricziel/fluidcontent.git",
-                    "reference": "119522ade82211b2a37139b5cbef597c6a262c03"
+                    "url": "https://github.com/FluidTYPO3/fluidcontent.git",
+                    "reference": "678ec1422280eed29a5f185a11184bf1c44902ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cedricziel/fluidcontent/zipball/119522ade82211b2a37139b5cbef597c6a262c03",
-                    "reference": "119522ade82211b2a37139b5cbef597c6a262c03",
+                    "url": "https://api.github.com/repos/FluidTYPO3/fluidcontent/zipball/678ec1422280eed29a5f185a11184bf1c44902ef",
+                    "reference": "678ec1422280eed29a5f185a11184bf1c44902ef",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "*",
                     "ft3/flux": "*"
                 },
-                "time": "2013-08-26 15:33:05",
+                "time": "2013-08-26 17:28:58",
                 "type": "typo3-cms-extension",
                 "description": "The fluidcontent package from FluidTYPO3",
                 "support": {
-                    "source": "https://github.com/cedricziel/fluidcontent/tree/composerInit"
+                    "source": "https://github.com/FluidTYPO3/fluidcontent/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/fluidcontent/issues"
                 }
             }
         },
         "ft3/fluidpages": {
-            "dev-composerInit": {
+            "dev-master": {
                 "name": "ft3/fluidpages",
-                "version": "dev-composerInit",
-                "version_normalized": "dev-composerInit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/cedricziel/fluidpages.git",
-                    "reference": "789aaabcd92620eb7a110fe93581f9e961b27e92"
+                    "url": "https://github.com/FluidTYPO3/fluidpages.git",
+                    "reference": "dec8c5bb627f13eb141660536e92d5422ae37fc8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cedricziel/fluidpages/zipball/789aaabcd92620eb7a110fe93581f9e961b27e92",
-                    "reference": "789aaabcd92620eb7a110fe93581f9e961b27e92",
+                    "url": "https://api.github.com/repos/FluidTYPO3/fluidpages/zipball/dec8c5bb627f13eb141660536e92d5422ae37fc8",
+                    "reference": "dec8c5bb627f13eb141660536e92d5422ae37fc8",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "*",
                     "ft3/flux": "*"
                 },
-                "time": "2013-08-26 15:42:49",
+                "time": "2013-08-26 17:28:40",
                 "type": "typo3-cms-extension",
                 "description": "The fluidpages package from FluidTYPO3",
                 "support": {
-                    "source": "https://github.com/cedricziel/fluidpages/tree/composerInit"
+                    "source": "https://github.com/FluidTYPO3/fluidpages/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/fluidpages/issues"
                 }
             }
         },
         "ft3/flux": {
-            "dev-composerInit": {
+            "dev-master": {
                 "name": "ft3/flux",
-                "version": "dev-composerInit",
-                "version_normalized": "dev-composerInit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/cedricziel/flux.git",
-                    "reference": "456e3debca02e89b3edee197a7aff2c1d88a1364"
+                    "url": "https://github.com/FluidTYPO3/flux.git",
+                    "reference": "8fd98e8a4c7067f50c4bbee558b70ae87ba4629f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cedricziel/flux/zipball/456e3debca02e89b3edee197a7aff2c1d88a1364",
-                    "reference": "456e3debca02e89b3edee197a7aff2c1d88a1364",
+                    "url": "https://api.github.com/repos/FluidTYPO3/flux/zipball/8fd98e8a4c7067f50c4bbee558b70ae87ba4629f",
+                    "reference": "8fd98e8a4c7067f50c4bbee558b70ae87ba4629f",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "*"
                 },
-                "time": "2013-08-26 15:20:48",
+                "time": "2013-08-26 17:11:51",
                 "type": "typo3-cms-extension",
                 "description": "The flux package from FluidTYPO3",
                 "support": {
-                    "source": "https://github.com/cedricziel/flux/tree/composerInit"
+                    "source": "https://github.com/FluidTYPO3/flux/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/flux/issues"
                 }
             }
         },
@@ -117,29 +120,30 @@
             }
         },
         "ft3/vhs": {
-            "dev-composerInit": {
+            "dev-master": {
                 "name": "ft3/vhs",
-                "version": "dev-composerInit",
-                "version_normalized": "dev-composerInit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/cedricziel/vhs.git",
-                    "reference": "95461258dbfad1837b36d5faa1c110df607754db"
+                    "url": "https://github.com/FluidTYPO3/vhs.git",
+                    "reference": "bfced0a96ce0790140a2853c0a6cf7c3b5506798"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cedricziel/vhs/zipball/95461258dbfad1837b36d5faa1c110df607754db",
-                    "reference": "95461258dbfad1837b36d5faa1c110df607754db",
+                    "url": "https://api.github.com/repos/FluidTYPO3/vhs/zipball/bfced0a96ce0790140a2853c0a6cf7c3b5506798",
+                    "reference": "bfced0a96ce0790140a2853c0a6cf7c3b5506798",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "*"
                 },
-                "time": "2013-08-26 15:46:20",
+                "time": "2013-08-26 17:12:08",
                 "type": "typo3-cms-extension",
                 "description": "The vhs package from FluidTYPO3",
                 "support": {
-                    "source": "https://github.com/cedricziel/vhs/tree/composerInit"
+                    "source": "https://github.com/FluidTYPO3/vhs/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/vhs/issues"
                 }
             }
         },
