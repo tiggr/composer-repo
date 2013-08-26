@@ -27,6 +27,10 @@
                         "url": "https://github.com/cedricziel/fluxkitchen-distribution"
                 },
 		{
+                        "type": "vcs",
+                        "url": "https://github.com/FluidTYPO3/ft3_empty.git"
+                },
+		{
 			"type": "package",
 			"package": {
 				"name": "typo3cms/fluidcontent_bootstrap",
