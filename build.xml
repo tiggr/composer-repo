@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ft3-composer-satis" default="build">
+    <property file="build.properties"/>
+    <target name="clean">
+        <delete dir="${basedir}/work" />
+
+        <mkdir dir="${basedir}/work" />
+    </target>
+    <target name="build" depends="clean">
+        <echo file="${basedir}/publish-site.sh">
+            #!/bin/sh
+            cd ${basedir}
+            php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
+
+            php composer.phar create-project composer/satis --stability=dev --keep-vcs work --prefer-dist
+
+            php work/bin/satis build ft3.json ${basedir}
+
+            git add packages.json index.html
+
+            git stash
+
+            git remote add upstream ${github.repo}
+            git remote set-url upstream ${github.repo}
+            git fetch upstream gh-pages:gh-pages
+            git fetch upstream gh-pages
+            git checkout gh-pages
+            git pull
+
+            rm index.html packages.json
+
+            git stash pop
+            git commit -a -m "[TASK] Publish composer repo to gh-pages"
+            git push upstream gh-pages
+            git checkout master
+        </echo>
+        <chmod perm="+x" file="${basedir}/publish-site.sh"/>
+        <exec executable="${basedir}/publish-site.sh" failonerror="true" failifexecutionfails="true"/>
+    </target>
+</project>
