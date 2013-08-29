@@ -1,5 +1,32 @@
 {
     "packages": {
+        "ft3/builder": {
+            "dev-master": {
+                "name": "ft3/builder",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FluidTYPO3/builder.git",
+                    "reference": "b0d6ce393574baf264bfafeee46a86a2c12ef086"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FluidTYPO3/builder/zipball/b0d6ce393574baf264bfafeee46a86a2c12ef086",
+                    "reference": "b0d6ce393574baf264bfafeee46a86a2c12ef086",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "*"
+                },
+                "time": "2013-08-27 15:21:51",
+                "type": "typo3-cms-extension",
+                "support": {
+                    "source": "https://github.com/FluidTYPO3/builder/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/builder/issues"
+                }
+            }
+        },
         "ft3/fluidcontent": {
             "dev-master": {
                 "name": "ft3/fluidcontent",
@@ -130,19 +157,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/cedricziel/fluxkitchen-distribution.git",
-                    "reference": "fc398f9736c8b41609a1f8d72ce61846b592d2cb"
+                    "reference": "4b2768d611761e8f9a148cb4792d1ed8c74efe07"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cedricziel/fluxkitchen-distribution/zipball/fc398f9736c8b41609a1f8d72ce61846b592d2cb",
-                    "reference": "fc398f9736c8b41609a1f8d72ce61846b592d2cb",
+                    "url": "https://api.github.com/repos/cedricziel/fluxkitchen-distribution/zipball/4b2768d611761e8f9a148cb4792d1ed8c74efe07",
+                    "reference": "4b2768d611761e8f9a148cb4792d1ed8c74efe07",
                     "shasum": ""
                 },
                 "require": {
                     "ft3/fluxkitchen": "dev-master",
                     "typo3/cms": "6.1.x"
                 },
-                "time": "2013-08-26 21:35:49",
+                "time": "2013-08-29 14:49:39",
                 "type": "library",
                 "authors": [
                     {
