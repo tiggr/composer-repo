@@ -31,6 +31,10 @@
                         "url": "https://github.com/FluidTYPO3/ft3_empty.git"
                 },
 		{
+                        "type": "vcs",
+                        "url": "https://github.com/FluidTYPO3/builder.git"
+                },
+		{
 			"type": "package",
 			"package": {
 				"name": "typo3cms/fluidcontent_bootstrap",
