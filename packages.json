@@ -27,6 +27,35 @@
                 }
             }
         },
+        "ft3/fluidbackend": {
+            "dev-master": {
+                "name": "ft3/fluidbackend",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FluidTYPO3/fluidbackend.git",
+                    "reference": "0bd759d31efc0c03d16a9c00b9d07e8249788fbb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FluidTYPO3/fluidbackend/zipball/0bd759d31efc0c03d16a9c00b9d07e8249788fbb",
+                    "reference": "0bd759d31efc0c03d16a9c00b9d07e8249788fbb",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "*",
+                    "ft3/flux": "*"
+                },
+                "time": "2013-08-30 13:56:00",
+                "type": "typo3-cms-extension",
+                "description": "The fluidbackend package from FluidTYPO3",
+                "support": {
+                    "source": "https://github.com/FluidTYPO3/fluidbackend/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/fluidbackend/issues"
+                }
+            }
+        },
         "ft3/fluidcontent": {
             "dev-master": {
                 "name": "ft3/fluidcontent",
@@ -82,6 +111,35 @@
                 "support": {
                     "source": "https://github.com/FluidTYPO3/fluidpages/tree/master",
                     "issues": "https://github.com/FluidTYPO3/fluidpages/issues"
+                }
+            }
+        },
+        "ft3/fluidpages_bootstrap": {
+            "dev-master": {
+                "name": "ft3/fluidpages_bootstrap",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FluidTYPO3/fluidpages_bootstrap.git",
+                    "reference": "3270734784f9765fbfb10e96759e0f7a13751ef1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FluidTYPO3/fluidpages_bootstrap/zipball/3270734784f9765fbfb10e96759e0f7a13751ef1",
+                    "reference": "3270734784f9765fbfb10e96759e0f7a13751ef1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "*",
+                    "ft3/fluidpages": "*"
+                },
+                "time": "2013-08-30 13:56:08",
+                "type": "typo3-cms-extension",
+                "description": "The fluidpages_bootstrap package from FluidTYPO3",
+                "support": {
+                    "source": "https://github.com/FluidTYPO3/fluidpages_bootstrap/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/fluidpages_bootstrap/issues"
                 }
             }
         },
@@ -243,6 +301,34 @@
                 "support": {
                     "source": "https://github.com/FluidTYPO3/vhs/tree/master",
                     "issues": "https://github.com/FluidTYPO3/vhs/issues"
+                }
+            }
+        },
+        "ft3/view": {
+            "dev-master": {
+                "name": "ft3/view",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/FluidTYPO3/view.git",
+                    "reference": "634b03acc74897803f1b3c871881252dac6f23d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/FluidTYPO3/view/zipball/634b03acc74897803f1b3c871881252dac6f23d6",
+                    "reference": "634b03acc74897803f1b3c871881252dac6f23d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "*"
+                },
+                "time": "2013-08-30 13:55:51",
+                "type": "typo3-cms-extension",
+                "description": "The view package from FluidTYPO3",
+                "support": {
+                    "source": "https://github.com/FluidTYPO3/view/tree/master",
+                    "issues": "https://github.com/FluidTYPO3/view/issues"
                 }
             }
         },
