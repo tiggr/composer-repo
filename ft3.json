@@ -23,17 +23,29 @@
 			"url": "https://github.com/cedricziel/fluxkitchen"
 		},
 		{
-                        "type": "vcs",
-                        "url": "https://github.com/cedricziel/fluxkitchen-distribution"
-                },
+			"type": "vcs",
+			"url": "https://github.com/cedricziel/fluxkitchen-distribution"
+		},
 		{
-                        "type": "vcs",
-                        "url": "https://github.com/FluidTYPO3/ft3_empty.git"
-                },
+			"type": "vcs",
+			"url": "https://github.com/FluidTYPO3/ft3_empty.git"
+		},
 		{
-                        "type": "vcs",
-                        "url": "https://github.com/FluidTYPO3/builder.git"
-                },
+			"type": "vcs",
+			"url": "https://github.com/FluidTYPO3/builder.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/FluidTYPO3/view.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/FluidTYPO3/fluidbackend.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/FluidTYPO3/fluidpages_bootstrap.git"
+		},
 		{
 			"type": "package",
 			"package": {
